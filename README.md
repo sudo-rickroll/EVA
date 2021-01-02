@@ -1,6 +1,6 @@
 # EVA
 
-NOTEBOOK 1:
+***************NOTEBOOK 1*****************
 
 Target:
 
@@ -22,7 +22,7 @@ Too many parameters than what is required
 Model is over-fitting and accuracy is not upto the mark
 
 
-NOTEBOOK 2:
+***************NOTEBOOK 2******************
 
 Target:
 
@@ -43,7 +43,7 @@ Model is underfitting.
 Parameters need to be further reduced and this needs to be compensated with other operations, which will be done in the upcoming models.
 
 
-NOTEBOOK 3:
+*********************NOTEBOOK 3***************************
 
 Target:
 
@@ -62,7 +62,7 @@ Model is underfitting.
 Accuracy seems to be improved by applying data augmentation but too many augmentations seem to impact the performance.
 
 
-NOTEBOOK 4:
+******************NOTEBOOK 4***********************
 
 Target:
 
