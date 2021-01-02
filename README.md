@@ -60,3 +60,24 @@ Analysis:
 
 Model is underfitting.
 Accuracy seems to be improved by applying data augmentation but too many augmentations seem to impact the performance.
+
+
+NOTEBOOK 4:
+
+Target:
+
+Model needs to be slightly changed for the following reasons:
+
+Reduce the number of parameters to less than 10000. Compensate this by adding a convolution layer with padding and tune the learning rate and reduce batch size
+Hit an accuracy of 99.4% consistently.
+
+Results:
+
+Parameters: 8790
+Best Training Accuracy: 98.038%
+Best Test Accuracy: 99.48%
+
+Analysis:
+
+Model is underfitting.
+Learning rate can further be tuned to increase accuracy.
