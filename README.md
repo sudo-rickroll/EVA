@@ -41,3 +41,22 @@ Analysis:
 
 Model is underfitting.
 Parameters need to be further reduced and this needs to be compensated with other operations, which will be done in the upcoming models.
+
+
+NOTEBOOK 3:
+
+Target:
+
+Add data augmentation to slightly increase the accuracy.
+Observe change in accuracy compared to previous model's max accuracy.
+
+Results:
+
+Parameters: 16030
+Best Training Accuracy: 99.16%
+Best Test Accuracy: 99.6%
+
+Analysis:
+
+Model is underfitting.
+Accuracy seems to be improved by applying data augmentation but too many augmentations seem to impact the performance.
