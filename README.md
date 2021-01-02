@@ -21,3 +21,23 @@ Analysis:
 Too many parameters than what is required
 Model is over-fitting and accuracy is not upto the mark
 
+
+NOTEBOOK 2:
+
+Target:
+
+Model needs to be slightly changed for the following reasons:
+
+Reduce the number of parameters to less than 20000.
+Hit an accuracy of 99.4% pretty consistently with the use of batch normalisation and dropout.
+
+Results:
+
+Parameters: 16030
+Best Training Accuracy: 98.286%
+Best Test Accuracy: 99.5%
+
+Analysis:
+
+Model is underfitting.
+Parameters need to be further reduced and this needs to be compensated with other operations, which will be done in the upcoming models.
