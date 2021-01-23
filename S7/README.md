@@ -1,83 +1,22 @@
-# EVA
+This folder contains the end to end steps followed to train the CIFAR10 Dataset.
 
-***************NOTEBOOK 1*****************
+The folder contains 7 files:
 
-Target:
+1. S7.ipynb           -> Main Notebook File
+2. graphs.py          -> Python Module to plot graphs for the obtained accuracies and losses
+3. misclassified.py   -> Python Module to plot the images of 25 misclassified predictions
+4. model.py           -> Python Module that contains the model to train the dataset
+5. regularizations.py -> Python Module that contains the different regularization functions
+6. test.py            -> Python Module that contains the function for running the model on the validation dataset
+7. train.py           -> Python Module that contains the function for running the model and training it on the train dataset
+8. utils.py           -> Python Module that contains the class required for loading of dataset, applying transformations and creation of dataloader
 
-Prepare the skeleton structure
-Apply transformations on dataset
-Prepare convolution and transition blocks instead of single layers.
-Test the model on single image and batch of images
-Record the basic flow
+>This model uses normal 3\*3 and 1\*1 Convolutions along with atrous/dilated convolution and depthwise separable convolution in convolution layers and maxpool for transition layer. 
 
-Results:
+>It uses Global Average Pooling towards the end, coupled with a fully connected layer to reach the required number of channels for the dataset.
 
-Parameters: 43994
-Best Training Accuracy: 98.135%
-Best Test Accuracy: 98.08%
+>>Parameters Used : 330,538
 
-Analysis:
+>>Number of Epochs : 25
 
-Too many parameters than what is required
-Model is over-fitting and accuracy is not upto the mark
-
-
-***************NOTEBOOK 2******************
-
-Target:
-
-Model needs to be slightly changed for the following reasons:
-
-Reduce the number of parameters to less than 20000.
-Hit an accuracy of 99.4% pretty consistently with the use of batch normalisation and dropout.
-
-Results:
-
-Parameters: 16030
-Best Training Accuracy: 98.286%
-Best Test Accuracy: 99.5%
-
-Analysis:
-
-Model is underfitting.
-Parameters need to be further reduced and this needs to be compensated with other operations, which will be done in the upcoming models.
-
-
-*********************NOTEBOOK 3***************************
-
-Target:
-
-Add data augmentation to slightly increase the accuracy.
-Observe change in accuracy compared to previous model's max accuracy.
-
-Results:
-
-Parameters: 16030
-Best Training Accuracy: 99.16%
-Best Test Accuracy: 99.6%
-
-Analysis:
-
-Model is underfitting.
-Accuracy seems to be improved by applying data augmentation but too many augmentations seem to impact the performance.
-
-
-******************NOTEBOOK 4***********************
-
-Target:
-
-Model needs to be slightly changed for the following reasons:
-
-Reduce the number of parameters to less than 10000. Compensate this by adding a convolution layer with padding and tune the learning rate and reduce batch size
-Hit an accuracy of 99.4% consistently.
-
-Results:
-
-Parameters: 8790
-Best Training Accuracy: 98.038%
-Best Test Accuracy: 99.48%
-
-Analysis:
-
-Model is underfitting.
-Learning rate can further be tuned to increase accuracy.
+>>Highest Validation Accuracy : 82.15% (Epoch 7)
