@@ -1,3 +1,5 @@
+import torch
+
 def train_model(model, device, train_loader, regularizer):
   train_loss, train_accuracy, total_train_correct, total_train_processed = 0, 0, 0, 0    
   model.train()

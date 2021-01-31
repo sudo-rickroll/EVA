@@ -1,3 +1,7 @@
+import torch
+import torchvision
+import torchvision.transforms as transforms
+
 class DataProcessing():
 
   def __init__(self, dataset):     

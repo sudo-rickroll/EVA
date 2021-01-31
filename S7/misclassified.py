@@ -1,3 +1,6 @@
+import torch
+import numpy as np
+
 def misclassified_images(dataset, pred_values, labels, images, wrong_preds, correct_labels, wrong_pred_images):
   pred_values_numpy = pred_values.eq(labels.view_as(pred_values)).cpu().numpy()
   wrong_preds_index = [i for i in np.where(pred_values_numpy == False)[0]]

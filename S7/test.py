@@ -1,3 +1,6 @@
+import torch
+from misclassified import *
+
 def test_model(model, device, test_set, test_loader, regularizer, wrong_preds, correct_labels, wrong_pred_images, last_epoch):
   test_loss, test_accuracy, total_test_correct, total_test_processed = 0, 0, 0, 0    
   model.eval()
