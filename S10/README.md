@@ -1,6 +1,6 @@
 This folder contains the end to end steps followed to train the CIFAR10 Dataset using the RESNET18 Module. It contains Albumentation transforms and GradCam implementation for the same. It also makes use of an LR Finder to find the best LR for the model and makes use of ReduceLROnPlateau to reduce LR by a factor of 0.1 when the training stagnates.
 
-The folder contains 10 files:
+The folder contains 10 python modules and 1 main notebook for implementation:
 
 1. S7.ipynb           -> Main Notebook File
 2. graphs.py          -> Python Module to plot graphs for the obtained accuracies and losses
