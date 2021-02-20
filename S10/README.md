@@ -1,4 +1,4 @@
-This folder contains the end to end steps followed to train the CIFAR10 Dataset using the RESNET18 Module. It contains Albumentation transforms and GradCam implementation for the same.
+This folder contains the end to end steps followed to train the CIFAR10 Dataset using the RESNET18 Module. It contains Albumentation transforms and GradCam implementation for the same. It also makes use of an LR Finder to find the best LR for the model and makes use of ReduceLROnPlateau to reduce LR by a factor of 0.1 when the training stagnates.
 
 The folder contains 10 files:
 
@@ -12,10 +12,10 @@ The folder contains 10 files:
 8. utils.py           -> Python Module that contains the class required for loading of dataset, applying transformations and creation of dataloader
 9. AlbumentationTransformations.py -> Python Module that contains the methodologies for data augmentation using Albumentations.
 10. GradCam.py        -> Python module that contains the implementation of GradCam.
-
+11. LR_Finder.py      -> Python Module that contains the LR Finder module.
 
 >>Parameters Used : 11,173,962
 
->>Number of Epochs : 25
+>>Number of Epochs : 50
 
->>Highest Validation Accuracy : 87.97% (Epoch 24)
+>>Highest Validation Accuracy : 91.35%
