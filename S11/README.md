@@ -15,6 +15,10 @@ The folder contains 13 files:
 11. LR_Finder.py, Range_Test.py -> Python modules used to find the optimal Maximum LR for use with OneCycleLR Scheduler
 12. CyclicGraph.py   -> Python Module to draw a sample graph for Triangular Scheduler for Cyclic LR
 
+The Plots folder contains the plots for GradCam and the Test and Train accuracies.
+
+The misclassified images at the last epoch of the training is included in the S12.ipynb file.
+
 >>Parameters Used : 6,575,370
 
 >>Number of Epochs : 24
