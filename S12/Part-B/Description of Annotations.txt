@@ -1,0 +1,15 @@
+Contents of the JSON:
+
+Filename : Name of the file
+Size : Size of the image in bytes
+Regions : Information regarding the annotations
+
+Shape Attributes : Information regarding the shape of the annotations
+
+Name : Shape of the annotation. 'Rect' for rectangle
+x : Bounding Box Centroid x-axis value
+y : Bounding Box Centroid y-axis value
+height : Height of the bounding box
+width : Width of the bounding box
+class_name : Name of the class for the bounding box
+
