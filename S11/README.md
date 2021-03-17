@@ -1,6 +1,6 @@
 This folder contains the end to end steps followed to train the CIFAR10 Dataset using the modified RESNET Module. It contains Albumentation transforms, GradCam implementation, Cyclic LR and Triangular Scheduler sample graph for the same. The training will take place for 24 epochs, with the LR cycle being changed every 5 epochs.
 
-The folder contains 10 files:
+The folder contains 13 files:
 
 1. S11.ipynb           -> Main Notebook File
 2. graphs.py          -> Python Module to plot graphs for the obtained accuracies and losses
