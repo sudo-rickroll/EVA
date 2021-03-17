@@ -1,21 +1,7 @@
-This folder contains the end to end steps followed to train the CIFAR10 Dataset using the RESNET18 Module. It contains Albumentation transforms and GradCam implementation for the same.
+This folder contains the steps followed during image annotation and data points collected after the same.
 
-The folder contains 10 files:
+50 images were collected for classes with Masks, Hardhat, Vests and Boots and they were annotated with the VGG annotator present here - https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html
 
-1. S7.ipynb           -> Main Notebook File
-2. graphs.py          -> Python Module to plot graphs for the obtained accuracies and losses
-3. misclassified.py   -> Python Module to plot the images of 25 misclassified predictions
-4. model.py           -> Python Module that contains the RESNET18 model to train the dataset
-5. regularizations.py -> Python Module that contains the different regularization functions
-6. test.py            -> Python Module that contains the function for running the model on the validation dataset
-7. train.py           -> Python Module that contains the function for running the model and training it on the train dataset
-8. utils.py           -> Python Module that contains the class required for loading of dataset, applying transformations and creation of dataloader
-9. AlbumentationTransformations.py -> Python Module that contains the methodologies for data augmentation using Albumentations.
-10. GradCam.py        -> Python module that contains the implementation of GradCam.
+The Bounding Boxes were drawn for the images and the JSON was generated for these annotations, which is included as the Annotations.json file. The metrics that were collected from the annotations have been described in the Description of Annotations.txt file.
 
-
->>Parameters Used : 11,173,962
-
->>Number of Epochs : 25
-
->>Highest Validation Accuracy : 87.97% (Epoch 24)
+The width, height, x-centroid and y-centroid were fetched from the JSON and were normalised using the height and width of the image. Then, the optimal number of clusters for the anchor box were found using the K-Means clustering technique, which is included in the K-Means Clustering.ipynb file.
