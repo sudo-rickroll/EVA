@@ -14,7 +14,9 @@ The folder contains 12 files:
 10. LR_Finder.py, Range_Test.py -> Python Modules that contain the code to find the optimal LR for use with Cyclic LR Scheduler
 11. Data_Preparation.py -> Python Module that contains the code for preparing the tiny-imagenet datafor training.
 
-The Plots folder contains the plots for GradCam and the misclassified images at the last epoch of the training.
+The Plots folder contains the plots for GradCam and the Test and Train accuracies.
+
+The misclassified images at the last epoch of the training is included in the S12.ipynb file.
 
 >>Parameters Used : 11,689,512
 
