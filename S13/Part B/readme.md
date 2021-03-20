@@ -3,7 +3,7 @@
 This folder contains the training process of Images containing the classes "Mask", "Vest", "Hardhat" and/or "Boots" using the YOLO V3 using OpenCV by running the "train.py" file in the following repository -
 https://github.com/theschoolofai/YoloV3
 
-## Sample Image of the Train Dataset:
+## Sample Image from the Train Dataset:
 
 ![2ac971265e](https://user-images.githubusercontent.com/65642947/111881709-cd48b400-89d7-11eb-9bee-52b9ddff518b.jpg)
 
