@@ -8,6 +8,7 @@ https://github.com/theschoolofai/YoloV3
 ![2ac971265e](https://user-images.githubusercontent.com/65642947/111881709-cd48b400-89d7-11eb-9bee-52b9ddff518b.jpg)
 
 
+
 ## Status of Training:
 
 ![Train](https://user-images.githubusercontent.com/65642947/111882055-6af0b300-89d9-11eb-83c2-5798e479a0c4.JPG)
@@ -18,6 +19,7 @@ Further, a video from YouTube containing all 4 classes mentioned above is used t
 ## Sample Image from the Test Output:
 
 ![image-280](https://user-images.githubusercontent.com/65642947/111882333-0b93a280-89db-11eb-9100-b34f2d752ba1.jpg)
+
 
 
 ## Link to the YouTube Video generated from the annotated output images (Click on the image below to be redirected to the YouTube video):
