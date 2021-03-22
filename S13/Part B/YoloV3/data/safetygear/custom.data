@@ -1,0 +1,4 @@
+classes=4
+train=data/safetygear/train.txt
+valid=data/safetygear/test.txt
+names=data/safetygear/custom.names
