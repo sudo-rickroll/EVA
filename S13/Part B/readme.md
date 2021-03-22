@@ -1,7 +1,6 @@
 # YOLO V3 Object Detection
 
-This folder contains the training process of images containing the classes "Mask", "Vest", "Hardhat" and/or "Boots" using the YOLO V3 using OpenCV by running the "train.py" file in the following repository -
-https://github.com/theschoolofai/YoloV3
+This folder contains the training process of images containing the classes "Mask", "Vest", "Hardhat" and/or "Boots" using the YOLO V3 using OpenCV by running the "train.py" file in the Yolo V3 folder. The Yolo V3 folder contains all the assets related to the training and testing of this architecture.
 
 ## Sample Image from the Train Dataset:
 
