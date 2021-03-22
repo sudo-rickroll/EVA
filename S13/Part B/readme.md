@@ -1,6 +1,6 @@
 # YOLO V3 Object Detection
 
-This folder contains the training process of images containing the classes "Mask", "Vest", "Hardhat" and/or "Boots" using the YOLO V3 using OpenCV by running the "train.py" file in the Yolo V3 folder. The Yolo V3 folder contains all the assets related to the training and testing of this architecture.
+This folder contains the training process of images containing the classes "Mask", "Vest", "Hardhat" and/or "Boots" using the YOLO V3 using OpenCV by running the "train.py" file in the YoloV3 folder. The YoloV3 folder contains all the assets related to the training and testing of this architecture.
 
 ## Sample Image from the Train Dataset:
 
@@ -13,7 +13,7 @@ This folder contains the training process of images containing the classes "Mask
 ![Train](https://user-images.githubusercontent.com/65642947/111882055-6af0b300-89d9-11eb-83c2-5798e479a0c4.JPG)
 
 
-Further, a video from YouTube containing all 4 classes mentioned above is used to extract the frames (using FFMPEG) and the model is tested on the extracted frames by running the "detect.py" file from the same GitHub Repository mentioned above. The annotated frames are then converted to a video (using FFMPEG again).
+Further, a video from YouTube containing all 4 classes mentioned above is used to extract the frames (using FFMPEG) and the model is tested on the extracted frames by running the "detect.py" file from the YoloV3 folder. The annotated frames are then converted to a video (using FFMPEG again).
 
 ## Sample Image from the Test Output:
 
