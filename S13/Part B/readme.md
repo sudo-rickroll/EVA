@@ -25,3 +25,5 @@ Further, a video from YouTube containing all 4 classes mentioned above is used t
 
 [![](http://img.youtube.com/vi/VHYpHynVeSs/0.jpg)](http://www.youtube.com/watch?v=VHYpHynVeSs "YOLO V3 Object Detection")
 
+
+Credits : https://github.com/theschoolofai/YoloV3
