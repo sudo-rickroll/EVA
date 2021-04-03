@@ -43,7 +43,7 @@ https://drive.google.com/drive/folders/1iNK5UxVwyCfN4t81OTrMtJJZUVXGg0Q_?usp=sha
 ### Contributors
 
 1. Abhijeet
-2. Naman Bharadwaj
+2. Naman Bhardwaj
 3. Rangasai K R
 4. Urmila
 
