@@ -6,6 +6,7 @@ The source images for this are picked from the Dataset that contained images col
 # MiDaS
 
 The Dataset was run through the "MiDaS v2.1 large" model and the inverse depthmaps for each image were generated.
+
 <br />
 
 ## Original Image:
@@ -31,6 +32,7 @@ https://drive.google.com/drive/folders/1MclNOIaaMZ9SmeHG7hoQ3KvF8IHWTJPw?usp=sha
 # PlaneR-CNN
 
 The Dataset was run through the "planercnn_normal_warping_refine" model that performed image segmentation on a planar level.
+
 <br />
 
 ## Original Image:
