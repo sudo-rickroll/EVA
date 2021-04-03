@@ -8,6 +8,7 @@ The source images for this are picked from the Dataset that contained images col
 The Dataset was run through the "MiDaS v2.1 large" model and the inverse depthmaps for each image were generated.
 
 <br />
+
 ## Original Image:
 
 ![C20](https://user-images.githubusercontent.com/65642947/113488234-58e33a00-94da-11eb-81c8-f67f8960bdef.jpg)
