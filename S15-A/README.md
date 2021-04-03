@@ -11,16 +11,19 @@ The Dataset was run through the "MiDaS v2.1 large" model and the inverse depthma
 ## Original Image:
 
 ![C20](https://user-images.githubusercontent.com/65642947/113488234-58e33a00-94da-11eb-81c8-f67f8960bdef.jpg)
+
 <br />
 
 ## Depth Map obtained through MiDaS:
 
 ![C20](https://user-images.githubusercontent.com/65642947/113488249-67315600-94da-11eb-8cda-11bc267ac58f.png)
+
 <br />
 
 ## Google Drive Link of the entire Dataset run on MiDaS:
 
 https://drive.google.com/drive/folders/1MclNOIaaMZ9SmeHG7hoQ3KvF8IHWTJPw?usp=sharing
+
 <br />
 <br />
 
@@ -33,16 +36,19 @@ The Dataset was run through the "planercnn_normal_warping_refine" model that per
 ## Original Image:
 
 ![413_image_0](https://user-images.githubusercontent.com/65642947/113488415-9f856400-94db-11eb-84fc-0f281c7f09bd.png)
+
 <br />
 
 ## Planar Segmentation obtained through PlaneR-CNN:
 
 ![413_segmentation_0_final](https://user-images.githubusercontent.com/65642947/113488437-c3e14080-94db-11eb-8c65-475167ec090b.png)
+
 <br />
 
 ## Google Drive Link of the entire Dataset run on PlaneR-CNN:
 
 https://drive.google.com/drive/folders/1iNK5UxVwyCfN4t81OTrMtJJZUVXGg0Q_?usp=sharing
+
 <br /><br />
 
 ### Contributors
